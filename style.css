@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: darkkhaki;
+}
+
+.container {
+  background-color: lightblue;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3em 2em;
+  border-radius: 20px;
+  box-shadow: 1px 2px 10px 2px black;
+}
+
+.covered {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  gap: 1em;
+}
+
+#btn {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  background-color: darkkhaki;
+  cursor: pointer;
+}
+
+#Country {
+  border: none;
+  font-size: 1em;
+  outline: none;
+  border-bottom: 2px solid;
+  background-color: lightblue;
+}
+
+.flagIMG {
+  display: block;
+  width: 23vw;
+  height: 12em;
+  margin: 2em auto 1em auto;
+
+  /* margin declared in to(2em),right(auto),bottom,left */
+}
+
+.container h2 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bolders;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 1.5em;
+}
+
+.box {
+  letter-spacing: 1.5px;
+  margin-bottom: 1.1em;
+}
+.box h3 {
+  font-weight: 900;
+  display: inline;
+}
+
+.box span {
+  color: grey;
+}
+
+.container h4 {
+  text-align: center;
+  color: red;
+  margin-top: 1em;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.error {
+  background-color: red;
+}
